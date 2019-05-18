@@ -56,6 +56,11 @@ h3 {
 
 /* header */
 
+.navbar, .navbar-brand {
+  padding:0px;
+  margin-left:0px;
+}
+
 #masthead {
   position: fixed;
   z-index: 99;
@@ -69,7 +74,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 400px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -81,10 +86,17 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
+#navbarNavAltMarkup {
+  
+background-color: #ffffff;
+position:absolute;
+right:0px;
+}
+
+/* nav {
   float: right;
   margin-top: 25px;
-}
+} */
 
 nav a {
   display: inline-block;
@@ -144,6 +156,7 @@ h3, h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
+  padding:0px;
 }
 
 .work:nth-child(even) {
