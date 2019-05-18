@@ -58,9 +58,12 @@ h3 {
 
 .navbar, .navbar-brand {
   padding:0px;
-  margin-left:0px;
+  /* margin-left:0px; */
 }
 
+.navbar-nav {
+  padding-top: 28px;
+}
 #masthead {
   position: fixed;
   z-index: 99;
@@ -86,11 +89,15 @@ h3 {
   background: #4aaaa5;
 }
 
+.clearfix {
+  overflow:auto;
+}
+
 #navbarNavAltMarkup {
-  
-background-color: #ffffff;
 position:absolute;
 right:0px;
+/* padding-top:28px;  */
+overflow:visible;
 }
 
 /* nav {
@@ -225,4 +232,8 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.row {
+  width: 960px;
 }
