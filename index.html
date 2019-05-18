@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Your Name</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -50,7 +51,7 @@
     <section class="main-section">
       <h1>About Me</h1>
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+      <img src="assets/images/cat.jpg" class="img-fluid" class="auth-image" alt="Your Name">
 
       <p>Hey there! My name is Max and I am a fresh face on the development scene. I started self-teaching a few months
         into 2019 with technologies like HTML CSS and Javascript before enrolling in a bootcamp through the Trilogy
@@ -75,11 +76,19 @@
 
   </div>
 
-  <footer>
+    <!--Couldn't find this  fixed footer syntax on bootstrap site... link to the
+  documentation seems weird and code I found didn't even seem to work as expected. But
+  I did eventually find it on stack overflow-->
+  <footer class="footer fixed-bottom">
+      <div class="container">
+        <span>Copyright &copy;</span>
+      </div>
+    </footer>
+  <!-- <footer>
     <div class="container">
       Copyright &copy;
     </div>
-  </footer>
+  </footer> -->
 </body>
 
 </html>
